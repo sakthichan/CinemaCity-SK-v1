@@ -50,9 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = f"{caption}
-\n ⚡Powered by @CC_links_SK 
-\n Share and Support us🥰 \n @CC_Movies_3",
+                caption = f"{caption} ⚡Powered by @CC_links_SK \n Share and Support us🥰 \n @CC_Movies_3",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -71,9 +69,7 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"{caption} 
-\n ⚡Powered by @CC_links_SK 
-\n Share and Support us🥰 \n @CC_Movies_3",
+                caption = f"{caption}⚡Powered by @CC_links_SK \n Share and Support us🥰 \n @CC_Movies_3",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
