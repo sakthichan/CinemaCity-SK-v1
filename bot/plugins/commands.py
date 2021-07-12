@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{caption} \n\n ⚡Powered by @CC_links_SK \n\n Share and Support us🥰 \n @CC_Movies_3",
+                caption = f"{caption} \n\n ⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CC_links_SK \n\n 𝐒𝐡𝐚𝐫𝐞 𝐚𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐮𝐬🥰 \n @CC_Movies_3",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '😍 Join Our Group 😍', url="https://t.me/CinemaCity_Chat"
+                                    '😍 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 😍', url="https://t.me/CinemaCity_Chat"
                                 )
                         ]
                     ]
@@ -50,14 +50,14 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = f"{caption} \n\n ⚡Powered by @CC_links_SK \n\n Share and Support us🥰 \n @CC_Movies_3",
+                caption = f"{caption} \n\n ⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CC_links_SK \n\n 𝐒𝐡𝐚𝐫𝐞 𝐚𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐮𝐬🥰 \n @CC_Movies_3",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '😍 Join Our Group 😍', url="https://t.me/CinemaCity_Chat"
+                                    '😍 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 😍', url="https://t.me/CinemaCity_Chat"
                                 )
                         ]
                     ]
@@ -69,14 +69,14 @@ async def start(bot, update):
             await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = f"{caption}⚡Powered by @CC_links_SK \n Share and Support us🥰 \n @CC_Movies_3",
+                caption = f"{caption}⚡𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 @CC_links_SK \n 𝐒𝐡𝐚𝐫𝐞 𝐚𝐧𝐝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐮𝐬🥰 \n @CC_Movies_3",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '😍 Join Our Group 😍', url="https://t.me/CinemaCity_Chat"
+                                    '😍 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 😍', url="https://t.me/CinemaCity_Chat"
                                 )
                         ]
                     ]
